@@ -158,41 +158,49 @@ h1{
 }
 
 .gif5 {
-    bottom: -300px;
+    position: absolute;
+    bottom: -20%;
     left: 20px;
 }
 
 .gif6 {
+    position: absolute;
     top: -400px;
     left: 800px;
 }
 
 .gif7 {
+    position: absolute;
     bottom: -400px;
     left: -700px;
 }
 
 .gif8 {
+    position: absolute;
     bottom: -400px;
     right: -700px;
 }
 
 .gif9 {
+    position: absolute;
     top: -400px;
     left: -700px;
 }
 
 .gif14 {
+    position: absolute;
     top: 100px;
     left: -700px;
 }
 
 .gif12 {
+    position: absolute;
     top: 100px;
     right: -500px;
 }
 
 .gif15 {
+    position: absolute;
     bottom: 300px;
     right: 800px;
 }

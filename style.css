@@ -20,12 +20,13 @@ body {
 }
 
 #question {
+    margin-top: -30vh;
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
     font-size: 52px; /* Set font size for the question */
 }
 
 #options {
-    margin-top: 50px; /* Add space above the options */
+    margin-top: 10px; /* Add space above the options */
 }
 
 button {

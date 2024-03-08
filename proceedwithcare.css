@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-    width: 800px;
-    height: 400px;
+    width: 31.936vw;
+    height: 30.1659vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,8 +23,8 @@ h1 {
 }
 
 .letter {
-    width: 600px;
-    height: 400px;
+    width: 23.95209vw;
+    height: 30.1659vh;
     display: inline-block;
 }
 
@@ -58,23 +58,27 @@ h1 {
 }
 
 .top-left {
-    top:  300px;
-    left: 700px;
+    position: absolute;
+    top:  10%;
+    left: 10%;
     transform: rotate(45deg);
 }
 
 .top-right {
-    top: 300px;
-    right: 700px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }
 
 .bottom-left {
-    bottom: 300px;
-    left: 600px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
     width: 500px;
 }
 
 .bottom-right {
-    bottom: 500px;
-    right: 700px;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
 }
