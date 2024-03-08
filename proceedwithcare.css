@@ -1,0 +1,80 @@
+body {
+    background: #fadede;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #FE7696;
+    font-size: 34px;
+}
+
+.letter {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+}
+
+/* Style for the redirect button */
+.redirect-button {
+    padding: 28px 56px;
+    font-size: 72px;
+    background-color: #FE7696;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Ensures that the button occupies the full width of its container */
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the button */
+}
+
+
+.redirect-button:hover {
+    background-color: #FFC0CB;
+}
+
+
+/* CSS styles for the corner GIFs */
+.corner-gif {
+    position: absolute;
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.top-left {
+    top:  300px;
+    left: 700px;
+    transform: rotate(45deg);
+}
+
+.top-right {
+    top: 300px;
+    right: 700px;
+}
+
+.bottom-left {
+    bottom: 300px;
+    left: 600px;
+    width: 500px;
+}
+
+.bottom-right {
+    bottom: 500px;
+    right: 700px;
+}
